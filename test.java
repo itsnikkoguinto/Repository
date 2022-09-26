@@ -1,14 +1,13 @@
-public class test
-{
-    private int x;
+public class test{
 
-    public test{
-        x = 2;
+    public test(){
+        System.out.print("Hello");
     }
-    public void printInfo(){
-        System.out.println("The X value = " + x);
+    public static void main(String[] args){
+        t[0] = new test();
     }
-}
-public static void main(String[] args){
-    t[0] = new test();
+    @Override
+    public String toString() {
+        return "test []";
+    }
 }
